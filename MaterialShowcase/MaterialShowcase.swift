@@ -46,11 +46,11 @@ public class MaterialShowcase: UIView {
   var containerView: UIView!
   var targetView: UIView!
   var backgroundView: UIView!
-  var targetHolderView: UIView!
+  public var targetHolderView: UIView!
   var hiddenTargetHolderView: UIView!
   var targetRippleView: UIView!
   var targetCopyView: UIView!
-  var instructionView: MaterialShowcaseInstructionView!
+  public var instructionView: MaterialShowcaseInstructionView!
   
   var onTapThrough: (() -> Void)?
   
